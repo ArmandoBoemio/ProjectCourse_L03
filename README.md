@@ -24,11 +24,11 @@ An in-depth explanation on how those parameters affect the sound is presented in
 
 ### Executing program
 #### If the user is familiar with the MATLAB Audio Toolbox:
-* run 'tb.m' to initialize the Audio Testbench environment. 
-* Choose input and output devices and the audio track.
+* run 'tb.m' to initialize the Audio Testbench environment;
+* Choose input and output devices and the audio track;
 * Start the test, tweak parameters, close when done. 
 
-#### If the user is not familiar with the MATLAB Audio Toolbox, 
+#### If the user is not familiar with the MATLAB Audio Toolbox:
 * run 'tb_play.m';
 * Select the input audio track(wav, mp3, m4a, mp4) from the explorer;
 * Tweak parameters. The script handles the audio device input and output selection, and also the buffer length choice.
