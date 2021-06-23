@@ -1,4 +1,3 @@
-# ProjectCourse_L03
 
 # Real-time Virtual Bass Enhancement
 
