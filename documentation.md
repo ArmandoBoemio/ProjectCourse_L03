@@ -10,7 +10,7 @@ The input and output are handled by the MATLAB Audio Toolbox for real-time appli
 Here the user can choose what type of drivers to use, the type of input (file reader, oscillators, sound card input), the type of output (file writer, sound card output).
 The audio stream is processed with the alforithm in a frame-by-frame fashion.
 
-* A ready-to-play script 'tb_play.m' is also provided in the code folder to test the algorithm faster. Input and output devices are set to default, the user has to select an input
+* A ready-to-play script 'tb_play.m' is also provided in the code folder for faster algorithm testing. Input and output devices are set to default, the user has to select an input
 audio file (wav, mp3, m4a, mp4 are supported), and will be provided with the same parameters of the test bench environment.
 The audio stream cannot be interrupted through the GUI, but this is intended for quick audio tests only.
 
