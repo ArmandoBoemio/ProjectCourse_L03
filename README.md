@@ -38,7 +38,7 @@ An in-depth explanation on how those parameters affect the sound is presented in
 ## Help
 
 The code performs significantly better with a buffer size equal to 1024. Changes to that size may affect the quality of the bass enhancement.
-Check the [Documentation](https://github.com/armandoboemio98/ProjectCourse_L03/blob/main/documentation.pdf) for more information on the internal module structure. 
+Check the [Documentation](https://github.com/armandoboemio98/ProjectCourse_L03/blob/main/documentation.md) for more information on the internal module structure. 
 
 ## Authors
 
