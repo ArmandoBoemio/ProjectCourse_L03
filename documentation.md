@@ -28,7 +28,7 @@ The output corresponds to the 1-to-BufferLength samples in the processing frame 
 
 
 ### Harmonics generation
-The submodules that implement harmonics generation receive as input the low-passed mono version of the input signal and return an enhanced mono signal.
+The sub-modules that implement harmonics generation receive as input the low-passed mono version of the input signal and return an enhanced mono signal.
 
 * 'VBE_NLD' generates the enhanced signal using a full-wave rectifier ('Rectifier_full.m') followed by a simple gain stage.
 * 'VBE_PV' implements the overlap-and-add structure for harmonic generation using the phase vocoder ('PhaseVocoder.m') approach. 
@@ -42,4 +42,4 @@ the addition of the support to the onset detector and a switch case for the flag
 Then, it estimates the bark-scale envelope and fundamental frequency of the signal. Those are used to create and weight new harmonics in the spectrum. The phase locking scheme is also implemented
 here to maintain the phase coherence. Last, it transforms back the signal into time domain and resamples it to the original sampling frequency and length.
 * 'OnSetDetector' is used in the VBE_Hybrid module to discriminate transients from steady-state signals. It works by comparing the frequency peaks in the current processing frame with the peaks in previous one. For each iteration, 
-an ODF value and a flag value is returned. The vector with the ODF values is then updated in the 'VBE_Hybrid' module and used as input for further iterations to compute the threshold. 
+an ODF value and a flag value is returned. The vector with the ODF values is then updated in the VBE_Hybrid module and used as input for further iterations to compute the threshold. 
