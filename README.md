@@ -4,10 +4,12 @@
 Virtual bass enhancement system for real-time applications
 
 ## Description
+The real-time Virtual Bass Enhancement system allows to increase the perception of low frequency when using small loudspeakers, exploiting the missing fundamental theory.
+It works in three modalities: NLD, Phase Vocoder, Hybrid.
 
-The application has five controls (three knobs and two switch) that the user can change in real time:
+The application has five tunable parameters (three knobs and two switch) that the user can tweak in real time:
 * Crossover cut-off frequency
-* Harmonic low-pass frequency
+* Harmonics low-pass frequency
 * Gain
 * Harmonic generation mode
 * Bypass
